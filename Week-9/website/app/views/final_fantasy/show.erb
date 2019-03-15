@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1 class="title">Random Character</h1>
+    </div>
+  </div>
+
+  <div class="character">
+    <div class="img-container">
+      <img class="text-center" src="<%= @random["picture"] %>" alt="" style="width:30%; margin:auto;">
+    </div>
+    <div class="character-container">
+      <h4><b><%= @random["name"] %></b></h4>
+      <p class="text-justify">Age: <%= @random["age"] %></p>
+      <p class="text-justify">Gender: <%= @random["gender"] %></p>
+      <p class="text-justify">Job/Class: <%= @random["job"] %></p>
+      <p class="text-justify">Height: <%= @random["height"] %></p>
+      <p class="text-justify">Origin: <%= @random["origin"] %></p>
+      <p class="text-justify">Description: <%= @random["description"] %></p>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,57 @@
+.logo {
+  width: 192px;
+  height: 75px;
+}
+.container {
+  text-align: center;
+}
+
+.louis {
+  width: 20%;
+  height: 20%;
+}
+
+.languages {
+  width: 40%;
+  height: 40%;
+}
+
+.code {
+  width: 70%;
+  height: 70%;
+}
+
+.page-header h2 {
+  text-align: left;
+  margin-left: 100px
+}
+
+.projects p {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.collab {
+  margin-left: 100px;
+}
+
+.collab li {
+  margin-left: 50px;
+  text-align: left;
+}
+
+.carousel-item {
+  height: 500px;
+  width: 500px;
+}
+
+.carousel-item img {
+  width: 500px;
+  height: 500px;
+}
+
+.carousel {
+  margin-left: 270px;
+  height: 500px;
+  width: 500px;
+}

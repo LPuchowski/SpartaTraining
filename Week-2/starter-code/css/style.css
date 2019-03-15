@@ -1,0 +1,46 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+}
+
+.main-content {
+  padding-left: 80px;
+}
+
+nav {
+  background: black;
+}
+
+nav a:hover {
+  background-color: grey;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.headshot {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1, h4 {
+  color: #E13A63;
+}
+
+.screenshot {
+  width: 300px;
+  height: 200px;
+}

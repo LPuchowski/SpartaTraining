@@ -1,0 +1,46 @@
+.logo img {
+  width: 30%;
+  height: 30%;
+  background-color: blue;
+}
+
+.jumbo {
+  text-align: center;
+}
+
+
+
+/* .one {
+  width: 200px;
+  height: 500px;
+  background-color: blue;
+}
+
+.two {
+  width: 200px;
+  height: 500px;
+  background-color: pink;
+  margin-left: 30px;
+}
+
+.three {
+  width: 200px;
+  height: 500px;
+  background-color: pink;
+  margin-left: 30px;
+} */
+
+.carousel-item {
+  height: 500px;
+  width: 500px;
+}
+
+.carousel-item img {
+  width: 500px;
+  height: 500px;
+}
+
+.carousel {
+  height: 500px;
+  width: 500px;
+}

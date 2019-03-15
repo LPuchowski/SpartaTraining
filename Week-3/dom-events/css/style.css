@@ -1,0 +1,18 @@
+.btnclicked {
+  background-color: orange;
+}
+
+#div1 {
+  padding: 50px;
+  background-color: gainsboro;
+}
+
+#div2 {
+  padding: 50px;
+  background-color: #AABBCC;
+}
+
+#div3 {
+  padding: 50px;
+  background-color: #AADDFF;
+}

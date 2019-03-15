@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div class="row" style="margin: 50px auto">
+    <div class="col-md-6 col-md-offset-3">
+      <h3><a href="/yugioh"><i class="fas fa-arrow-left"></i></a></h3>
+      <div class="row text-center">
+        <div class="col-md-8">
+          <img src=<%= @card[0]["image_url"] %> alt="">
+          <h2 class="title"><%= @card[0]["name"] %></h2>
+          <h3 class="subtitle"><%= @card[0]["type"] %></h3>
+          <p class="text-justify"><%= @card[0]["desc"] %></p>
+          <p class="text-justify">Tag: <%= @card[0]["set_tag"] %></p>
+          <p class="text-justify">Code: <%= @card[0]["setcode"] %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

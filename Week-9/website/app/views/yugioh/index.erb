@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1 class="title">List of all cards</h1>
+    </div>
+  </div>
+
+
+  <% @cards.each do |card| %>
+    <div class="card yugioh-card">
+      <div class="img-container">
+        <img class="text-center" src="<%= card['image_url'] %>" alt="" style="width:30%; margin:auto;">
+      </div>
+      <div class="card-container">
+        <h4><b><%= card["name"] %></b></h4>
+        <a class="link" href="/yugioh/<%= card['id'] %>">More Info</a>
+      </div>
+    </div>
+
+  <% end %>
+
+</div>

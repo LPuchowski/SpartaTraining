@@ -1,0 +1,24 @@
+/* p {
+  color: pink;
+  cursor: crosshair;
+}
+
+.important {
+  font-size: 30px;
+}
+
+#header {
+  font-size: 20px;
+}
+
+p {
+  color: blue;
+} */
+.section p {
+  color: orange;
+}
+
+ul li {
+  font-size: 30px;
+  color: #000000;
+}
